@@ -7,6 +7,7 @@
 version: 0.2.X
 description: This is my new Hugo FixIt site
 keywords:
+  - geekswg
   - Hugo
   - FixIt
 defaultTheme: auto
@@ -20,10 +21,11 @@ withSiteTitle: true
 titleDelimiter: '-'
 indexWithSubtitle: false
 disableThemeInject: false
+# 作者信息配置
 author:
-  name: Lruihao
-  email: 1024@lruihao.cn
-  link: https://github.com/Lruihao
+  name: geekswg
+  email: geekswg@qq.cn
+  link: https://github.com/geekswg
   avatar: ''
 gitInfo:
   repo: ''
@@ -66,15 +68,18 @@ search:
 header:
   desktopMode: sticky
   mobileMode: auto
+  # 网站标题
   title:
-    logo: /hugo-fixit-starter/images/fixit.min.svg
+    # 左上角logo,注意路径/blogroot/
+    logo: /blog-fixit-go/imgs/logo.svg
     name: ''
     pre: ''
     post: ''
     typeit: false
+  # 网站副标题
   subtitle:
-    name: ''
-    typeit: false
+    name: '也在江湖'
+    typeit: true
 breadcrumb:
   enable: false
   sticky: false
@@ -129,11 +134,13 @@ tagcloud:
   max: 32
   peakCount: 10
   orderby: name
+# 主页设置
 home:
   rss: 10
+  # 资料设置
   profile:
     enable: true
-    gravatarEmail: xx@xx.com
+    gravatarEmail: geekswg@qq.com
     avatarURL: ''
     avatarMenu: ''
     title: ''
@@ -230,7 +237,7 @@ social:
   Douyin: ''
   TikTok: ''
   Phone: ''
-  Email: ''
+  Email: 'geekswg@qq.com'
   RSS: true
 page:
   authorAvatar: true
