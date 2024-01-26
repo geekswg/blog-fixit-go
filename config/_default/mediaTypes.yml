@@ -3,9 +3,16 @@
 # See: https://gohugo.io/templates/output-formats/#media-types
 # -------------------------------------------------------------------------------------
 
-# Options to make output .md files
-["text/markdown"]
-  suffixes = ["md"]
-# Options to make output .txt files
-["text/plain"]
-  suffixes = ["txt"]
+text/markdown:
+  suffixes:
+    - md
+text/plain:
+  suffixes:
+    - txt
+
+# # Options to make output .md files
+# ["text/markdown"]
+#   suffixes = ["md"]
+# # Options to make output .txt files
+# ["text/plain"]
+#   suffixes = ["txt"]

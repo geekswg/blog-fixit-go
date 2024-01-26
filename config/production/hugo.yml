@@ -1,8 +1,8 @@
 # -------------------------------------------------------------------------------------
-# Taxonomies Configuration
-# See: https://gohugo.io/content-management/taxonomies/#configure-taxonomies
+# Hugo Configuration
+# See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-category = "categories"
-tag = "tags"
-collection = "collections"
+# 网站标题
+title: "毕少侠-hugo-fixit-go"
+baseURL: "https://geekswg.github.io"

@@ -1,0 +1,84 @@
+# -------------------------------------------------------------------------------------
+# Theme Core Configuration | 主题核心配置
+# See: https://fixit.lruihao.cn/theme-documentation-basics/#site-configuration
+# -------------------------------------------------------------------------------------
+
+# Comment config
+# 评论系统设置
+page:
+  comment:
+    enable: true
+    giscus:
+      enable: true
+      repo: geekswg/geekswg.github.io
+      repoId: R_kgDOGYvyfA
+      category: General
+      categoryId: DIC_kwDOGYvyfM4CT7ku
+      mapping: title
+      term: ""
+      reactionsEnabled: "1"
+      emitMetadata: "1"
+      inputPosition: bottom
+      lightTheme: light
+      darkTheme: dark_dimmed
+      lazyLoad: true
+    waline:
+      enable: true
+      reaction: true
+      serverURL: https://waline.geekswg.top
+      pageview: true
+      emoji:
+        - //unpkg.com/@waline/emojis@1.1.0/qq
+      meta:
+        - nick
+        - mail
+        - link
+      requiredMeta:
+        - nick
+        - mail
+      login: enable
+      wordLimit: 0
+      pageSize: 10
+      imageUploader: true
+      highlighter: true
+      comment: true
+      texRenderer: true
+      search: true
+      recaptchaV3Key: ""
+    valine:
+      enable: false
+      appId: qd9ROyoJU406IejzwIJ9kKC2-gzGzoHsz
+      appKey: lbGcdwUR0W4riEkBse20yHan
+      placeholder: |-
+        ヾﾉ≧∀≦)o~ 有事请留言！
+        评论功能以邮件作为通知方式！
+        如有必要请填写正确邮箱哦！
+      meta:
+        - nick
+        - mail
+        - link
+      requiredFields:
+        - nick
+      pageSize: 10
+      lang: zh-CN
+      visitor: true
+      recordIP: true
+      highlight: true
+      enableQQ: true
+      emoji: ""
+      commentCount: true
+    gitalk:
+      enable: false
+      owner: geekswg
+      repo: https://github.com/geekswg/geekswg.github.io
+      clientId: f28226798cfd13f14485
+      clientSecret: a6fa44b45b80bc0545d668a61bfcdc4940c3d26a
+ibruce:
+  enable: true
+  enablePost: true
+cdn:
+  data: unpkg.yml
+pace:
+  enable: true
+  color: blue
+  theme: barber-shop

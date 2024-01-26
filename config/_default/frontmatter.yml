@@ -1,7 +1,11 @@
 # -------------------------------------------------------------------------------------
-# Permalinks Configuration
-# See: https://gohugo.io/content-management/urls/#permalinks
+# Front Matter Configuration
+# See: https://gohugo.io/getting-started/configuration/#configure-front-matter
 # -------------------------------------------------------------------------------------
 
-# posts = ":year/:month/:filename"
-posts = "posts/:slugorfilename"
+lastmod:
+  - lastmod
+  - ':git'
+  - ':fileModTime'
+  - ':defalut'
+

@@ -1,0 +1,558 @@
+# -------------------------------------------------------------------------------------
+# Theme Core Configuration
+# See: https://fixit.lruihao.cn/theme-documentation-basics/#site-configuration
+# -------------------------------------------------------------------------------------
+
+# FixIt 0.2.15 | CHANGED FixIt theme version
+version: 0.2.X
+description: This is my new Hugo FixIt site
+keywords:
+  - Hugo
+  - FixIt
+defaultTheme: auto
+fingerprint: ''
+dateFormat: '2006-01-02'
+images: []
+enablePWA: false
+externalIcon: false
+navigationReverse: false
+withSiteTitle: true
+titleDelimiter: '-'
+indexWithSubtitle: false
+disableThemeInject: false
+author:
+  name: Lruihao
+  email: 1024@lruihao.cn
+  link: https://github.com/Lruihao
+  avatar: ''
+gitInfo:
+  repo: ''
+  branch: main
+  dir: content
+  issueTpl: >-
+    title=[BUG]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|URL|{URL}|%0A|Filename|{sourceURL}|
+app:
+  title: Hugo FixIt Blog
+  noFavicon: false
+  svgFavicon: ''
+  iconColor: '#5bbad5'
+  tileColor: '#da532c'
+  themeColor:
+    light: '#f8f8f8'
+    dark: '#252627'
+search:
+  enable: true
+  type: fuse
+  contentLength: 4000
+  placeholder: ''
+  maxResultLength: 10
+  snippetLength: 30
+  highlightTag: em
+  absoluteURL: false
+  algolia:
+    index: ''
+    appID: ''
+    searchKey: ''
+  fuse:
+    isCaseSensitive: false
+    minMatchCharLength: 2
+    findAllMatches: false
+    location: 0
+    threshold: 0.3
+    distance: 100
+    ignoreLocation: false
+    useExtendedSearch: false
+    ignoreFieldNorm: false
+header:
+  desktopMode: sticky
+  mobileMode: auto
+  title:
+    logo: /hugo-fixit-starter/images/fixit.min.svg
+    name: ''
+    pre: ''
+    post: ''
+    typeit: false
+  subtitle:
+    name: ''
+    typeit: false
+breadcrumb:
+  enable: false
+  sticky: false
+  showHome: false
+footer:
+  enable: true
+  custom: ''
+  copyright: true
+  author: true
+  since: 2021
+  gov: ''
+  icp: ''
+  license: >-
+    <a rel="license external nofollow noopener noreferrer"
+    href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC
+    BY-NC-SA 4.0</a>
+  powered:
+    enable: true
+    hugoLogo: true
+    themeLogo: true
+  siteTime:
+    enable: false
+    animate: true
+    icon: fa-solid fa-heartbeat
+    pre: ''
+    value: ''
+  order:
+    powered: 0
+    copyright: 0
+    statistics: 0
+    visitor: 0
+    beian: 0
+archives:
+  paginate: 20
+  dateFormat: 01-02
+section:
+  paginate: 20
+  dateFormat: 01-02
+  rss: 10
+  recentlyUpdated:
+    enable: false
+    rss: false
+    days: 30
+    maxCount: 10
+list:
+  paginate: 20
+  dateFormat: 01-02
+  rss: 10
+tagcloud:
+  enable: false
+  min: 14
+  max: 32
+  peakCount: 10
+  orderby: name
+home:
+  rss: 10
+  profile:
+    enable: true
+    gravatarEmail: xx@xx.com
+    avatarURL: ''
+    avatarMenu: ''
+    title: ''
+    subtitle: This is my new Hugo FixIt site
+    typeit: true
+    social: true
+    disclaimer: ''
+  posts:
+    enable: true
+    paginate: 6
+social:
+  GitHub: ''
+  Linkedin: ''
+  Twitter: ''
+  Instagram: ''
+  Facebook: ''
+  Telegram: ''
+  Medium: ''
+  Gitlab: ''
+  Youtubelegacy: ''
+  Youtubecustom: ''
+  Youtubechannel: ''
+  Tumblr: ''
+  Quora: ''
+  Keybase: ''
+  Pinterest: ''
+  Reddit: ''
+  Codepen: ''
+  FreeCodeCamp: ''
+  Bitbucket: ''
+  Stackoverflow: ''
+  Weibo: ''
+  Odnoklassniki: ''
+  VK: ''
+  Flickr: ''
+  Xing: ''
+  Snapchat: ''
+  Soundcloud: ''
+  Spotify: ''
+  Bandcamp: ''
+  Paypal: ''
+  Fivehundredpx: ''
+  Mix: ''
+  Goodreads: ''
+  Lastfm: ''
+  Foursquare: ''
+  Hackernews: ''
+  Kickstarter: ''
+  Patreon: ''
+  Steam: ''
+  Twitch: ''
+  Strava: ''
+  Skype: ''
+  Whatsapp: ''
+  Zhihu: ''
+  Douban: ''
+  Angellist: ''
+  Slidershare: ''
+  Jsfiddle: ''
+  Deviantart: ''
+  Behance: ''
+  Dribbble: ''
+  Wordpress: ''
+  Vine: ''
+  Googlescholar: ''
+  Researchgate: ''
+  Mastodon: ''
+  Thingiverse: ''
+  Devto: ''
+  Gitea: ''
+  XMPP: ''
+  Matrix: ''
+  Bilibili: ''
+  ORCID: ''
+  Liberapay: ''
+  Ko-Fi: ''
+  BuyMeaCoffee: ''
+  Linktree: ''
+  QQ: ''
+  QQGroup: ''
+  Diaspora: ''
+  CSDN: ''
+  Discord: ''
+  DiscordInvite: ''
+  Lichess: ''
+  Pleroma: ''
+  Kaggle: ''
+  MediaWiki: ''
+  Plume: ''
+  HackTheBox: ''
+  RootMe: ''
+  Feishu: ''
+  TryHackMe: ''
+  Douyin: ''
+  TikTok: ''
+  Phone: ''
+  Email: ''
+  RSS: true
+page:
+  authorAvatar: true
+  hiddenFromHomePage: false
+  hiddenFromSearch: false
+  hiddenFromRss: false
+  hiddenFromRelated: false
+  twemoji: false
+  lightgallery: false
+  ruby: true
+  fraction: true
+  fontawesome: true
+  license: >-
+    <a rel="license external nofollow noopener noreferrer"
+    href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC
+    BY-NC-SA 4.0</a>
+  linkToMarkdown: true
+  linkToSource: true
+  linkToEdit: true
+  linkToReport: true
+  rssFullText: false
+  pageStyle: normal
+  autoBookmark: false
+  wordCount: true
+  readingTime: true
+  endFlag: ''
+  instantPage: false
+  collectionList: false
+  collectionNavigation: false
+  repost:
+    enable: false
+    url: ''
+  toc:
+    enable: true
+    keepStatic: false
+    auto: true
+    position: right
+  expirationReminder:
+    enable: false
+    reminder: 90
+    warning: 180
+    closeComment: false
+  heading:
+    number:
+      enable: false
+      format:
+        h1: '{title}'
+        h2: '{h2} {title}'
+        h3: '{h2}.{h3} {title}'
+        h4: '{h2}.{h3}.{h4} {title}'
+        h5: '{h2}.{h3}.{h4}.{h5} {title}'
+        h6: '{h2}.{h3}.{h4}.{h5}.{h6} {title}'
+  math:
+    enable: true
+    inlineLeftDelimiter: ''
+    inlineRightDelimiter: ''
+    blockLeftDelimiter: ''
+    blockRightDelimiter: ''
+    copyTex: true
+    mhchem: true
+  code:
+    copy: true
+    edit: true
+    maxShownLines: 10
+  mapbox:
+    accessToken: ''
+    lightStyle: mapbox://styles/mapbox/light-v9
+    darkStyle: mapbox://styles/mapbox/dark-v9
+    navigation: true
+    geolocate: true
+    scale: true
+    fullscreen: true
+  cacheRemoteImages:
+    enable: false
+    replace: false
+  related:
+    enable: false
+    count: 5
+  reward:
+    enable: false
+    animation: false
+    position: after
+    mode: static
+    ways: {}
+  share:
+    enable: true
+    Twitter: true
+    Facebook: true
+    Linkedin: false
+    Whatsapp: false
+    Pinterest: false
+    Tumblr: false
+    HackerNews: false
+    Reddit: false
+    VK: false
+    Buffer: false
+    Xing: false
+    Line: false
+    Instapaper: false
+    Pocket: false
+    Flipboard: false
+    Weibo: true
+    Myspace: false
+    Blogger: false
+    Baidu: false
+    Odnoklassniki: false
+    Evernote: false
+    Skype: false
+    Trello: false
+    Mix: false
+  comment:
+    enable: false
+    artalk:
+      enable: false
+      server: https://yourdomain
+      site: 默认站点
+      placeholder: ''
+      noComment: ''
+      sendBtn: ''
+      editorTravel: true
+      flatMode: auto
+      lightgallery: false
+      locale: ''
+      emoticons: ''
+      nestMax: 2
+      nestSort: DATE_ASC
+      vote: true
+      voteDown: false
+      uaBadge: true
+      listSort: true
+      imgUpload: true
+      preview: true
+      versionCheck: true
+    disqus:
+      enable: false
+      shortname: ''
+    gitalk:
+      enable: false
+      owner: ''
+      repo: ''
+      clientId: ''
+      clientSecret: ''
+    valine:
+      enable: false
+      appId: ''
+      appKey: ''
+      placeholder: ''
+      avatar: mp
+      meta: ''
+      requiredFields: ''
+      pageSize: 10
+      lang: ''
+      visitor: true
+      recordIP: true
+      highlight: true
+      enableQQ: false
+      serverURLs: ''
+      emoji: ''
+      commentCount: true
+    waline:
+      enable: false
+      serverURL: ''
+      pageview: false
+      emoji:
+        - //unpkg.com/@waline/emojis@1.1.0/weibo
+      meta:
+        - nick
+        - mail
+        - link
+      requiredMeta: []
+      login: enable
+      wordLimit: 0
+      pageSize: 10
+      imageUploader: false
+      highlighter: false
+      comment: false
+      texRenderer: false
+      search: false
+      recaptchaV3Key: ''
+      reaction: false
+    facebook:
+      enable: false
+      width: 100%
+      numPosts: 10
+      appId: ''
+      languageCode: ''
+    telegram:
+      enable: false
+      siteID: ''
+      limit: 5
+      height: ''
+      color: ''
+      colorful: true
+      dislikes: false
+      outlined: false
+    commento:
+      enable: false
+    utterances:
+      enable: false
+      repo: ''
+      issueTerm: pathname
+      label: ''
+      lightTheme: github-light
+      darkTheme: github-dark
+    twikoo:
+      enable: false
+      envId: ''
+      region: ''
+      path: ''
+      visitor: true
+      commentCount: true
+      lightgallery: false
+      katex: false
+    giscus:
+      enable: false
+      repo: ''
+      repoId: ''
+      category: ''
+      categoryId: ''
+      mapping: ''
+      strict: '0'
+      term: ''
+      reactionsEnabled: '1'
+      emitMetadata: '0'
+      inputPosition: bottom
+      lightTheme: light
+      darkTheme: dark
+      lazyLoad: true
+  library:
+    css: {}
+    js: {}
+  seo:
+    images: []
+    publisher:
+      name: ''
+      logoUrl: ''
+typeit:
+  speed: 100
+  cursorSpeed: 1000
+  cursorChar: '|'
+  duration: -1
+  loop: false
+mermaid:
+  themes:
+    - default
+    - dark
+pangu:
+  enable: false
+  selector: article
+watermark:
+  enable: false
+  content: ''
+  opacity: 0.1
+  width: 150
+  height: 20
+  rowSpacing: 60
+  colSpacing: 30
+  rotate: 15
+  fontSize: 0.85
+  fontFamily: inherit
+ibruce:
+  enable: false
+  enablePost: false
+verification:
+  google: ''
+  bing: ''
+  yandex: ''
+  pinterest: ''
+  baidu: ''
+  so: ''
+  sogou: ''
+seo:
+  image: ''
+  thumbnailUrl: ''
+analytics:
+  enable: false
+  google:
+    id: ''
+    anonymizeIP: true
+  fathom:
+    id: ''
+    server: ''
+cookieconsent:
+  enable: true
+  content:
+    message: ''
+    dismiss: ''
+    link: ''
+cdn:
+  data: ''
+compatibility:
+  polyfill: false
+  objectFit: false
+githubCorner:
+  enable: false
+  permalink: https://github.com/hugo-fixit/FixIt
+  title: View source on GitHub
+  position: right
+gravatar:
+  enable: true
+  host: gravatar.loli.net
+  style: ''
+backToTop:
+  enable: true
+  scrollpercent: false
+readingProgress:
+  enable: false
+  start: left
+  position: top
+  reversed: false
+  light: ''
+  dark: ''
+  height: 2px
+pace:
+  enable: false
+  color: blue
+  theme: minimal
+customFilePath: {}
+dev:
+  enable: false
+  c4u: false
+  githubToken: ''
+  mDevtools:
+    enable: false
+    type: vConsole

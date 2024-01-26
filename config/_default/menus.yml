@@ -1,0 +1,168 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration
+# See: https://fixit.lruihao.cn/documentation/basics/#menu-configuration
+# -------------------------------------------------------------------------------------
+
+main:
+  - identifier: posts
+    name: 博客
+    url: /posts/
+    title: "我的博客"
+    weight: 1
+    params:
+      icon: fa-solid fa-blog
+  - parent: posts
+    name: 分类
+    url: /categories/
+    weight: 1
+    params:
+      icon: fa-solid fa-th
+  - parent: posts
+    name: 标签
+    url: /tags/
+    weight: 2
+    params:
+      icon: fa-solid fa-tags
+
+  - identifier: mydocs
+    name: 文档
+    url: /mydocs/
+    title: "毕少侠所有站点"
+    weight: 2
+    params:
+      icon: fa-solid fa-book    
+
+  
+  - identifier: geekswg
+    name: 社交
+    title: "我社交信息"
+    weight: 3
+    url: /about/
+    params:
+      icon: fa-solid fa-id-card
+  - parent: geekswg
+    name: 1. 关于
+    url: /about/
+    params:
+      icon: fa-solid fa-user
+  - parent: geekswg
+    name: 2. 留言
+    url: /notepad/
+    params:
+      icon: fa-solid fa-comments
+  - parent: geekswg
+    name: 3. 友链
+    url: /friends/
+    params:
+      icon: fa-solid fa-users
+
+  - identifier: sites
+    name: 站点
+    url: /sites/all-sites/
+    title: "毕少侠所有站点"
+    weight: 4
+    params:
+      icon: fa-solid fa-globe
+
+  - identifier: nav
+    name: 主页
+    url: https://home.geekswg.top/
+    weight: 11
+    params:
+      icon: fa-solid fa-home
+  - parent: nav
+    name: Hexo-Blog-Anzhiyu
+    url: https://hexo.geekswg.top/
+    params:
+      icon: far fa-grin-alt
+  - parent: nav
+    name: Hugo-Blog-stellar
+    url: https://gavinblog.github.io/stellar/
+    params:
+      icon: fa-solid fa-globe
+  - parent: nav
+    name: 毕少侠
+    url: https://geekswg.top/
+    params:
+      icon: fa-solid fa-blog
+  - parent: nav
+    name: 自建ChatGPT
+    url: https://chatgpt.geekswg.top/
+    params:
+      icon: fab fa-connectdevelop
+
+  - identifier: geekswg-cloudfare
+    parent: nav
+    name: Blog-CloudFlare
+    url: https://geekswg.pages.dev/
+    title: geekswg.pages.dev加速Github-Pages
+    params:
+      icon: fab fa-cloudflare
+  - identifier: geekswg-netlify
+    parent: nav
+    name: Blog-Netlify
+    url: https://geekswg.netlify.app/
+    title: geekswg-netlify.app，加速Github-Pages
+    params:
+      icon: fas fa-cog fa-spin
+  - identifier: geekswg-status
+    parent: nav
+    name: 站点监测
+    url: https://status.geekswg.top/
+    title: 站点监测 - uptime
+    params:
+      icon: fas fa-cog fa-spin
+  - identifier: geekswg-all-sites
+    parent: nav
+    name: 站点总览
+    url: /all-sites/idnex/
+    title: 毕少侠所有站点服务
+    params:
+      icon: fas fa-cog fa-spin
+  
+
+
+# [[main]]
+#   identifier = "archives"
+#   parent = ""
+#   # you can add extra information before the name (HTML format is supported), such as icons
+#   pre = ""
+#   # you can add extra information after the name (HTML format is supported), such as icons
+#   post = ""
+#   name = "Archives"
+#   url = "/archives/"
+#   # title will be shown when you hover on this menu link
+#   title = ""
+#   weight = 1
+#   # FixIt 0.2.14 | NEW add user-defined content to menu items
+#   [main.params]
+#     # add css class to a specific menu item
+#     class = ""
+#     # whether set as a draft menu item whose function is similar to a draft post/page
+#     draft = false
+#     # FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
+#     icon = "fa-solid fa-archive"
+#     # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
+#     type = ""
+# [[main]]
+#   identifier = "categories"
+#   parent = ""
+#   pre = ""
+#   post = ""
+#   name = "Categories"
+#   url = "/categories/"
+#   title = ""
+#   weight = 2
+#   [main.params]
+#     icon = "fa-solid fa-folder-tree"
+# [[main]]
+#   identifier = "tags"
+#   parent = ""
+#   pre = ""
+#   post = ""
+#   name = "Tags"
+#   url = "/tags/"
+#   title = ""
+#   weight = 3
+#   [main.params]
+#     icon = "fa-solid fa-tags"
