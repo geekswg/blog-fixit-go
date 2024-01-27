@@ -20,5 +20,5 @@
 # 复制github在线编辑页面的链接
 - nickname: ADD
   avatar: https://geekswg.js.cool/images/avatar.png
-  url: https://github.com/geekswg/blog-fixit-go/edit/master/data/friends.yml
+  url: https://github.com/geekswg/blog-fixit-go/edit/main/data/friends.yml
   description: Create a pull request to add a new site.
