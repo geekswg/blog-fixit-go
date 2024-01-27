@@ -19,7 +19,7 @@
 # ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 title: Hugo FixIt Blog
-baseURL: 127.0.0.1:1313
+baseURL: 127.0.0.1
 # 默认语言设置 en/zh-cn
 defaultContentLanguage: zh-cn
 languageCode: en
@@ -29,7 +29,7 @@ enableEmoji: true
 enableGitInfo: true
 relativeURLs: false
 buildDrafts: false
-summaryLength: 150
+summaryLength: 128
 ignoreErrors:
   - error-remote-getjson
   - error-missing-instagram-accesstoken

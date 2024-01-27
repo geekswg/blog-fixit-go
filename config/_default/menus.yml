@@ -5,9 +5,9 @@
 
 main:
   - identifier: posts
-    name: 博客
+    name: 归档
     url: /posts/
-    title: "我的博客"
+    title: "归档"
     weight: 1
     params:
       icon: fa-solid fa-blog
@@ -24,45 +24,67 @@ main:
     params:
       icon: fa-solid fa-tags
 
-  - identifier: mydocs
-    name: 文档
-    url: /mydocs/
-    title: "毕少侠所有站点"
+  # - identifier: mydocs
+  #   name: 文档
+  #   url: /mydocs/
+  #   title: "毕少侠所有站点"
+  #   weight: 2
+  #   params:
+  #     icon: fa-solid fa-book    
+  - identifier: guestbook
+    name: 留言
+    title: "给我留言"
     weight: 2
-    params:
-      icon: fa-solid fa-book    
-
-  
-  - identifier: geekswg
-    name: 社交
-    title: "我社交信息"
-    weight: 3
-    url: /about/
-    params:
-      icon: fa-solid fa-id-card
-  - parent: geekswg
-    name: 1. 关于
-    url: /about/
-    params:
-      icon: fa-solid fa-user
-  - parent: geekswg
-    name: 2. 留言
-    url: /notepad/
+    url: /pages/guestbook/
     params:
       icon: fa-solid fa-comments
-  - parent: geekswg
-    name: 3. 友链
+  - identifier: friends
+    name: 友联
+    title: "添加友联"
+    weight: 3
     url: /friends/
     params:
       icon: fa-solid fa-users
-
-  - identifier: sites
-    name: 站点
-    url: /sites/all-sites/
-    title: "毕少侠所有站点"
+  - identifier: about
+    name: 关于
+    title: "我社交信息"
     weight: 4
+    url: /pages/about/
     params:
-      icon: fa-solid fa-globe
+      icon: fa-solid fa-id-card
+  
+  # - identifier: geekswg
+  #   name: 社交
+  #   title: "我社交信息"
+  #   weight: 3
+  #   url: /pages/about/
+  #   params:
+  #     icon: fa-solid fa-id-card
+  # - parent: geekswg
+  #   name: 1. 关于
+  #   url: /pages/about/
+  #   params:
+  #     icon: fa-solid fa-user
+  # - parent: geekswg
+  #   name: 2. 留言
+  #   url: /pages/guestbook/
+  #   params:
+  #     icon: fa-solid fa-comments
+  # - parent: geekswg
+  #   name: 3. 友链
+  #   url: /pages/friends/
+  #   params:
+  #     icon: fa-solid fa-users
+
+
+
+  # - identifier: sites
+  #   name: 站点
+  #   url: /sites/all-sites/
+  #   title: "毕少侠所有站点"
+  #   weight: 4
+  #   params:
+  #     icon: fa-solid fa-globe
 
   - identifier: nav
     name: 主页
@@ -120,7 +142,6 @@ main:
     params:
       icon: fas fa-cog fa-spin
   
-
 
 # [[main]]
 #   identifier = "archives"

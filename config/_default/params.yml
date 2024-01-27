@@ -80,10 +80,12 @@ header:
   subtitle:
     name: '也在江湖'
     typeit: true
+# 面包屑导航
 breadcrumb:
-  enable: false
+  enable: true
   sticky: false
   showHome: false
+# 页脚配置
 footer:
   enable: true
   custom: ''
@@ -151,6 +153,7 @@ home:
   posts:
     enable: true
     paginate: 6
+# 
 social:
   GitHub: ''
   Linkedin: ''
@@ -270,19 +273,22 @@ page:
   repost:
     enable: false
     url: ''
+  # 目录配置
   toc:
     enable: true
     keepStatic: false
     auto: true
     position: right
+  # 过期提醒
   expirationReminder:
-    enable: false
+    enable: true
     reminder: 90
     warning: 180
     closeComment: false
+  # 目录编号
   heading:
     number:
-      enable: false
+      enable: true
       format:
         h1: '{title}'
         h2: '{h2} {title}'
@@ -298,10 +304,11 @@ page:
     blockRightDelimiter: ''
     copyTex: true
     mhchem: true
+  # 代码块
   code:
     copy: true
     edit: true
-    maxShownLines: 10
+    maxShownLines: 128
   mapbox:
     accessToken: ''
     lightStyle: mapbox://styles/mapbox/light-v9
@@ -313,15 +320,22 @@ page:
   cacheRemoteImages:
     enable: false
     replace: false
+  # 相关文章推荐
   related:
-    enable: false
+    enable: true
     count: 5
+  # 打赏
+  # FixIt 0.2.17 | NEW Donate (Sponsor) settings
   reward:
-    enable: false
-    animation: false
+    enable: true
+    animation: true
+    # position relative to post footer, optional values: ["before", "after"]
     position: after
+    # comment = "Buy me a coffee"
+    # FixIt 0.2.18 | NEW display mode of QR code images, optional values: ["static", "fixed"], default: `static`
     mode: static
     ways: {}
+  # 分享
   share:
     enable: true
     Twitter: true
@@ -348,6 +362,7 @@ page:
     Skype: false
     Trello: false
     Mix: false
+  # 评论配置
   comment:
     enable: false
     artalk:
@@ -474,12 +489,13 @@ page:
     publisher:
       name: ''
       logoUrl: ''
+# 打字机效果
 typeit:
   speed: 100
   cursorSpeed: 1000
   cursorChar: '|'
   duration: -1
-  loop: false
+  loop: true
 mermaid:
   themes:
     - default
@@ -487,15 +503,17 @@ mermaid:
 pangu:
   enable: false
   selector: article
+# 水印
 watermark:
-  enable: false
-  content: ''
+  enable: true
+  # 支持html语法
+  content: '毕少侠也在江湖'
   opacity: 0.1
   width: 150
-  height: 20
+  height: 200
   rowSpacing: 60
   colSpacing: 30
-  rotate: 15
+  rotate: 35
   fontSize: 0.85
   fontFamily: inherit
 ibruce:
@@ -526,35 +544,48 @@ cookieconsent:
     message: ''
     dismiss: ''
     link: ''
+# CDN配置
 cdn:
-  data: ''
+  # CDN data file name, disabled by default ["jsdelivr.yml", "unpkg.yml", ...]
+  # located in "themes/FixIt/assets/data/cdn/" directory
+  # you can store your own data files in the same path under your project: "assets/data/cdn/"
+  data: 'unpkg.yml'
+# Compatibility config
 compatibility:
   polyfill: false
   objectFit: false
+# github角标
 githubCorner:
-  enable: false
-  permalink: https://github.com/hugo-fixit/FixIt
+  enable: true
+  permalink: https://github.com/geekswg/blog-fixit-go
   title: View source on GitHub
-  position: right
+  position: left
 gravatar:
   enable: true
   host: gravatar.loli.net
+  # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
   style: ''
 backToTop:
   enable: true
-  scrollpercent: false
+  scrollpercent: true
+# 阅读进度条
 readingProgress:
-  enable: false
+  enable: true
   start: left
   position: top
   reversed: false
   light: ''
   dark: ''
   height: 2px
+# FixIt 0.2.17 | NEW Progress bar in the top during page loading.
+# For more information: https://github.com/CodeByZach/pace
 pace:
-  enable: false
+  enable: true
   color: blue
-  theme: minimal
+  # All available themes:
+  # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
+  # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
+  theme: loading-bar
 customFilePath: {}
 dev:
   enable: false

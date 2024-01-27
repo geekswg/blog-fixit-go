@@ -5,6 +5,7 @@
 
 imports:
   - path: github.com/hugo-fixit/FixIt
+  - path: github.com/Lruihao/hugo-shortcode-mmt-netease
 hugoVersion:
   extended: true
   min: 0.112.0
