@@ -58,8 +58,8 @@ main:
     weight: 4
     url: /pages/album/album1/
     params:
-      icon: fa-solid fa-id-card
-  
+      icon: fa-solid fa-images
+      
   # - identifier: geekswg
   #   name: 社交
   #   title: "我社交信息"
