@@ -5,7 +5,7 @@
 
 # FixIt 0.2.15 | CHANGED FixIt theme version
 version: 0.2.X
-description: This is my new Hugo FixIt site
+description: Talk is cheap. Show me the code.
 keywords:
   - geekswg
   - Hugo
@@ -24,7 +24,7 @@ disableThemeInject: false
 # 作者信息配置
 author:
   name: geekswg
-  email: geekswg@qq.cn
+  email: geekswg@qq.com
   link: https://github.com/geekswg
   avatar: ''
 gitInfo:
@@ -249,7 +249,9 @@ page:
   hiddenFromRss: false
   hiddenFromRelated: false
   twemoji: false
-  lightgallery: false
+  # whether to enable lightgallery
+  # FixIt 0.2.18 | CHANGED if set to "force", images in the content will be forced to shown as the gallery.
+  lightgallery: force
   ruby: true
   fraction: true
   fontawesome: true
@@ -481,14 +483,30 @@ page:
       lightTheme: light
       darkTheme: dark
       lazyLoad: true
+  # Third-party library config
+  # 第三方库配置
   library:
+      # someCSS = "some.css"
+      # located in "assets/" 位于 "assets/"
+      # Or 或者
+      # someCSS = "https://cdn.example.com/some.css"
     css: {}
-    js: {}
+
+    js:
+      #jquery-min: https://libs.baidu.com/jquery/2.1.4/jquery.min.js
+      #codeblockjs: js/codeblock.js
+      #someJavascript = "js/jquery-3.6.3.min.js"
+      # someJavascript = "some.js"
+      # located in "assets/" 位于 "assets/"
+      # Or 或者
+      # someJavascript = "https://cdn.example.com/some.js"
+      #dayjs = "js/dayjs.min.js"
+  # 页面 SEO 配置
   seo:
-    images: []
+    images: ["/imgs/avatar.webp"]
     publisher:
-      name: ''
-      logoUrl: ''
+      name: 'geekswg'
+      logoUrl: '/imgs/avatar.webp'
 # 打字机效果
 typeit:
   speed: 100
@@ -586,7 +604,17 @@ pace:
   # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
   # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
   theme: loading-bar
-customFilePath: {}
+
+# Define custom file paths
+# Create your custom files in site directory `layouts/partials/custom` and uncomment needed files below
+# 定义自定义文件路径
+# 在站点目录 `layouts/partials/custom` 中创建您的自定义文件，并取消注释下面需要的文件
+customFilePath:
+  # aside = "custom/aside.html"
+  # profile = "custom/profile.html"
+  footer: custom/footer.html
+  aside: custom/aside.html
+
 dev:
   enable: false
   c4u: false

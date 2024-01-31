@@ -5,4 +5,5 @@
 
 # 网站标题
 title: "毕少侠"
+# 这里的baseUrl特别注意如果仓库名称和你的GithubPages同名就不需要 "/仓库名/ "了。
 baseURL: "https://geekswg.js.cool/blog-fixit-go/"

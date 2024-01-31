@@ -52,6 +52,13 @@ main:
     url: /pages/about/
     params:
       icon: fa-solid fa-id-card
+  - identifier: album1
+    name: 相册
+    title: "我的相册"
+    weight: 4
+    url: /pages/album/album1/
+    params:
+      icon: fa-solid fa-id-card
   
   # - identifier: geekswg
   #   name: 社交
