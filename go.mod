@@ -4,5 +4,5 @@ go 1.19
 
 require (
 	github.com/Lruihao/hugo-shortcode-mmt-netease v1.0.5 // indirect
-	github.com/hugo-fixit/FixIt v0.4.0 // indirect
+	github.com/hugo-fixit/FixIt v0.4.1 // indirect
 )
