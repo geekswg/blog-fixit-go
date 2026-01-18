@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>所有pages - 毕少侠</title><link>https://geekswg.js.cool/blog-fixit-go/pages/</link><description>Talk is cheap. Show me the code.</description><generator>Hugo 0.147.5 &amp; FixIt v0.4.2</generator><language>en</language><managingEditor>geekswg@qq.com (geekswg)</managingEditor><webMaster>geekswg@qq.com (geekswg)</webMaster><lastBuildDate>Sun, 18 Jan 2026 02:05:52 +0000</lastBuildDate><atom:link href="https://geekswg.js.cool/blog-fixit-go/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>我的相册1</title><link>https://geekswg.js.cool/blog-fixit-go/pages/album/album1/</link><pubDate>Sun, 28 Jan 2024 08:00:00 +0800</pubDate><author>geekswg@qq.com (geekswg)</author><guid>https://geekswg.js.cool/blog-fixit-go/pages/album/album1/</guid><description>&lt;!-- more -->
+&lt;h2 class="heading-element" id="我的相册demo-秦时明月">&lt;span>我的相册demo-秦时明月&lt;/span>
+ &lt;a href="#%e6%88%91%e7%9a%84%e7%9b%b8%e5%86%8cdemo-%e7%a7%a6%e6%97%b6%e6%98%8e%e6%9c%88" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>&lt;a class="lightgallery" target="_blank" href="https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-1.webp" title="qsmy" data-thumbnail="https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-1.webp" data-sub-html="&lt;h2>qsmy&lt;/h2>">&lt;img loading="lazy" src='https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-1.webp' alt="qsmy">&lt;/a>
+&lt;a class="lightgallery" target="_blank" href="https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-2.webp" title="qsmy" data-thumbnail="https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-2.webp" data-sub-html="&lt;h2>qsmy&lt;/h2>">&lt;img loading="lazy" src='https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-2.webp' alt="qsmy">&lt;/a>
+&lt;a class="lightgallery" target="_blank" href="https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-3.webp" title="qsmy" data-thumbnail="https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-3.webp" data-sub-html="&lt;h2>qsmy&lt;/h2>">&lt;img loading="lazy" src='https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-3.webp' alt="qsmy">&lt;/a>
+&lt;a class="lightgallery" target="_blank" href="https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-4.webp" title="qsmy" data-thumbnail="https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-4.webp" data-sub-html="&lt;h2>qsmy&lt;/h2>">&lt;img loading="lazy" src='https://cdn.statically.io/gh/geekswg/static@main/imgs/qsmy/qsmy-4.webp' alt="qsmy">&lt;/a>&lt;/p></description></item><item><title>留言</title><link>https://geekswg.js.cool/blog-fixit-go/pages/guestbook/</link><pubDate>Mon, 13 Sep 2021 20:31:52 +0800</pubDate><author>geekswg@qq.com (geekswg)</author><guid>https://geekswg.js.cool/blog-fixit-go/pages/guestbook/</guid><description>&lt;div class="details admonition tip open">
+ &lt;div class="details-summary admonition-title">&lt;i class="icon fa-regular fa-lightbulb" aria-hidden="true">&lt;/i>Welcome&lt;i class="details-icon fa-solid fa-angle-right" aria-hidden="true">&lt;/i>&lt;/div>&lt;div class="details-content">
+ &lt;div class="admonition-content">&lt;div class="typeit">&lt;div >&lt;/div>&lt;template>&lt;pre>互联网的广大朋友们，欢迎光临我的小博客！欢迎留言！&lt;/pre>&lt;/template>
+&lt;/div>
+&lt;!-- markdownlint-disable-next-line no-inline-html -->
+&lt;p>&lt;small>&lt;em>关于 &lt;a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external nofollow noopener noreferrer">FixIt 主题&lt;/a> 的问题，请移步 &lt;a href="https://fixit.lruihao.cn" target="_blank" rel="external nofollow noopener noreferrer">FixIt 官网&lt;/a> 相关文章哦～&lt;/em>&lt;/small>&lt;/p>&lt;/div>
+ &lt;/div>
+&lt;/div>
+&lt;hr>
+&lt;p class="text-center" style="font-size: 80%;">温馨提示，音乐自动播放，请带好耳机～&lt;/p>
+&lt;link rel="stylesheet" href="https://unpkg.com/aplayer/dist/APlayer.min.css">
+&lt;link rel="stylesheet" href='https://geekswg.js.cool/blog-fixit-go/shortcodes/mmt-netease/css/index.css?v=1.0.5' />
+&lt;div class="netease-music" data-mid="2280569152" data-autoplay="true">&lt;/div>
+&lt;div class="comment-163" title="随机下一条">
+ &lt;span class="pic-backdrop">&lt;/span>
+ &lt;div class="commentator">
+ &lt;img class="comment-avatar d-none"/>
+ &lt;span class="comment-nickname">&lt;/span>
+ &lt;/div>
+ &lt;div class="comment-content">&lt;/div>
+ &lt;div class="music-info">
+ &lt;span class="artists-name">&lt;/span>
+ &lt;span class="music-name">&lt;/span>
+ &lt;/div>
+&lt;/div>
+&lt;div class="mmt-netease-powered">
+ &lt;span>From &lt;a href="https://music.163.com/#/playlist?id=2280569152" target="_blank">playlist&lt;/a>, &lt;/span>
+ &lt;span>Powered By &lt;a href="https://github.com/Lruihao/hugo-shortcode-mmt-netease" title="mmt-netease v1.0.5" target="_blank">mmt-netease&lt;/a>&lt;/span>
+&lt;/div>
+&lt;script src='https://geekswg.js.cool/blog-fixit-go/shortcodes/mmt-netease/js/index.js?v=1.0.5'>&lt;/script>
+
+&lt;hr>
+&lt;div class="post-reward">
+ &lt;div class="comment">给博主买杯卡布奇诺～&lt;/div>
+ &lt;input type="checkbox" class="reward-input" name="reward" id="id-1" hidden />
+ &lt;label class="reward-button" for="id-1">&lt;i class="fa-solid fa-qrcode" aria-hidden="true">&lt;/i>赞赏&lt;/label>
+ &lt;div class="reward-ways">&lt;div>&lt;img src='https://geekswg.js.cool/blog-fixit-go/imgs/reward/alipay2.png' alt="支付宝">&lt;span>支付宝&lt;/span>
+ &lt;/div>&lt;div>&lt;img src='https://geekswg.js.cool/blog-fixit-go/imgs/reward/wechatpay2.png' alt="微信">&lt;span>微信&lt;/span>
+ &lt;/div>&lt;/div>
+ &lt;/div></description></item><item><title>关于</title><link>https://geekswg.js.cool/blog-fixit-go/pages/about/</link><pubDate>Tue, 07 Sep 2021 21:00:48 +0800</pubDate><author>geekswg@qq.com (geekswg)</author><guid>https://geekswg.js.cool/blog-fixit-go/pages/about/</guid><description>&lt;!-- markdownlint-disable-file -->
+&lt;div id="id-1">&lt;div class="typeit">&lt;div class="highlight">&lt;/div>&lt;template>&lt;pre>&lt;span class="chroma">&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/**
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> * 建站的初衷不是為了炫耀所知，而是記錄無知。
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> * 人知道的越多，就會發現無知的越多。有更廣袤的世界可以探索，是莫大的快樂！
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> * @since 2018-05-28 20:01:01
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm"> */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">class&lt;/span> &lt;span class="nx">Blog&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">constructor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">name&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">author&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">url&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">name&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">name&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">author&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">author&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">url&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">url&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">site&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nx">Blog&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;毕少侠&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;geekswg&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;https://geekswg.js.cool&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;/span>&lt;/span>&lt;/span>&lt;/pre>&lt;/template>
+&lt;/div>
+&lt;/div>
+&lt;h2 class="heading-element" id="關於我">&lt;span>關於我&lt;/span>
+ &lt;a href="#%e9%97%9c%e6%96%bc%e6%88%91" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;blockquote class="blockquote-center">
+ 不卑不亢，不矜不伐，戒驕戒躁&lt;br>
+不嗔不怒，不爭不棄，獨善其身
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>&lt;strong>自我期許：&lt;/strong> 用我所學，學我所用。保持謙遜，保持探索欲，砥礪前行。&lt;/p></description></item></channel></rss>
