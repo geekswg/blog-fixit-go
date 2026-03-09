@@ -5,10 +5,16 @@
 
 imports:
   - path: "github.com/hugo-fixit/FixIt"
+    version: main
   - path: github.com/Lruihao/hugo-shortcode-mmt-netease
+    version: main
+  - path: github.com/hugo-fixit/cmpt-translate
+    version: main
+  - path: github.com/Artexxx/cmpt-post-preview
+    version: main
 hugoVersion:
   extended: true
-  min: 0.112.0
+  #min: 0.112.0
 
 
 # [[imports]]

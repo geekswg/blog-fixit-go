@@ -3,7 +3,7 @@
 # See: https://gohugo.io/content-management/urls/#permalinks
 # -------------------------------------------------------------------------------------
 
-posts: "posts/:slugorfilename"
+posts: "posts/:slugorcontentbasename"
 
 # posts = ":year/:month/:filename"
 # posts = "posts/:slugorfilename"
